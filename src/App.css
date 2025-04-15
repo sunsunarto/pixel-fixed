@@ -1,0 +1,43 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  background: #1F1E1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p, h1{
+  margin: 0;
+  padding: 0;
+}
+.con{
+  width: 52.083vw;
+  height:33.438vw;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 20.573vw;
+}
+.subtext{
+  width: 9.323vw;
+  height: 1.25vw;
+  font-size: 1.042vw;
+  color: #86868B;
+}
+.title{
+  width: 17.656vw;
+  font-size: 2.188vw;
+  font-weight: 700;
+}
+.maintext{
+  width: 18.438vw;
+  height: 13.75vw;
+  font-size: 0.938vw;
+  color: #86868B;
+}
+span{
+  color: white;
+}
