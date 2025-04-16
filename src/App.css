@@ -17,9 +17,13 @@ p, h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 img{
   width: 20.573vw;
+  position: relative;
+  top: 2.211vw;
+
 }
 .subtext{
   width: 9.323vw;
@@ -40,4 +44,43 @@ img{
 }
 span{
   color: white;
+}
+.mb{
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  .mb{
+    display: block;
+    width: 83.333vw;
+    height: 152.778vw;
+  }
+  .subtext{
+    width: 24.861vw;
+    font-size: 2.778vw;
+  }
+  .title{
+    width: 47.083vw;
+    font-size: 5.833vw;
+    font-weight: 700;
+  }
+  .maintext{
+    width: 64.861vw;
+    font-size: 2.5vw;
+  }
+  img{
+    width: 55vw;
+    height: 78.661vw;
+    top: 18vw;
+    left: 25vw;
+    bottom: 0;
+  }
+  .pc{
+    display: none;
+  }
+  .text{
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+    margin: 10vw 10vw;
+  }
 }
